@@ -21,7 +21,6 @@ vk = vk_api.VkApi(token=vkToken)
 vk._auth_token()
 print("SUCCESS")
 values = {'out': 0, 'count': 100, 'time_offset': 60}
-yandexKey = '013189fe-baed-44b7-9a1b-a0670fb4cb6c'
 
 supportList = [u'справка', u'привет', u'команды', u'здрасте', u'помоги', u'помощь']
 stationsDict = {}
